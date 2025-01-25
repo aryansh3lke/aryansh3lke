@@ -1,4 +1,4 @@
-# 👨🏻‍💻 Aryan Shelke - Full Stack Web Dev - M.S. SWE @ SJSU
+# 👨🏾‍💻 Aryan Shelke - Full Stack Web Dev - M.S. SWE @ SJSU
 
 ### Education
 
