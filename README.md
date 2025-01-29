@@ -9,7 +9,8 @@ M.S. Software Engineering @ SJSU *2025-Present*
 
 **🖼 Frameworks:** React, Next.js, Flask, FastAPI<br>
 **📝 Languages:** Python, C/C++, HTML/CSS, Javascript, Typescript, SQL<br>
-**📚 Libraries:** NumPy, Pandas, Matplotlib, Surprise<br>
+**📚 Libraries:** NumPy, Pandas, Matplotlib, Selenium<br>
+**🎨 User Interfaces:** Tailwind CSS, Shadcn UI, Next UI, Figma<br>
 **🔐 Authentication:** NextAuth, Supabase, PostgreSQL<br>
 **⚙️ DevTools:** Visual Studio, Github Actions, Vercel, Railway<br>
 
