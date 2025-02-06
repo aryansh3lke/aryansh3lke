@@ -12,7 +12,7 @@ M.S. Software Engineering @ SJSU *2025-Present*
 **📚 Libraries:** NumPy, Pandas, Matplotlib, Selenium<br>
 **🎨 User Interfaces:** Tailwind CSS, Shadcn UI, Next UI, Figma<br>
 **🔐 Authentication:** NextAuth, Supabase, PostgreSQL<br>
-**⚙️ DevTools:** Visual Studio, Github Actions, Vercel, Railway<br>
+**⚙️ DevTools:** Visual Studio, Github Actions, Docker, Vercel, Railway<br>
 
 <!--
 **asshelke/asshelke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
