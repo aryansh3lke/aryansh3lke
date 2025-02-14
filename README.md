@@ -12,6 +12,7 @@ M.S. Software Engineering @ SJSU *2025-Present*
 **📚 Libraries:** NumPy, Pandas, Matplotlib, Selenium<br>
 **🎨 User Interfaces:** Tailwind CSS, Shadcn UI, Next UI, Figma<br>
 **🔐 Authentication:** NextAuth, Supabase, PostgreSQL<br>
+**📊 Testing:** React Testing Library, Jest, Vitest
 **⚙️ DevTools:** Visual Studio, Github Actions, Docker, Vercel, Railway<br>
 
 <!--
