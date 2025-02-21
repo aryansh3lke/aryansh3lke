@@ -1,5 +1,7 @@
 # 👨🏾‍💻 Aryan Shelke - Full Stack Web Dev - M.S. SWE @ SJSU
 
+Check out my personal website and portfolio here: [aryanshelke.com](https://aryanshelke.com)
+
 ### Education
 
 B.S. Computer Science @ UC Davis *2021-2023*<br>
