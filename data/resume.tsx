@@ -203,7 +203,7 @@ export const DATA = {
         "Pandas",
         "Matplotlib",
         "TailwindCSS",
-        "Next UI",
+        "Hero UI",
         "Vercel",
         "Railway",
       ],
