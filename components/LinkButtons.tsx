@@ -10,7 +10,7 @@ export default function LinkButtons() {
 
   return (
     <div className="flex flex-row justify-center items-center gap-8">
-      <Link href="https://github.com/asshelke">
+      <Link href="https://github.com/aryansh3lke">
         <Button size="icon" className={BUTTON_STYLE}>
           <Github size={ICON_SIZE} />
         </Button>
