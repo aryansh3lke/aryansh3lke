@@ -33,7 +33,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/asshelke",
+        url: "https://github.com/aryansh3lke",
         icon: Icons.github,
 
         navbar: true,
@@ -143,7 +143,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/asshelke/trendscope",
+          href: "https://github.com/aryansh3lke/trendscope",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -178,7 +178,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/asshelke/yt-rehashed",
+          href: "https://github.com/aryansh3lke/yt-rehashed",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -215,7 +215,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/asshelke/anime-recommender",
+          href: "https://github.com/aryansh3lke/anime-recommender",
           icon: <Icons.github className="size-3" />,
         },
       ],
