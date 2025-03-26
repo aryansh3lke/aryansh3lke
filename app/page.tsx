@@ -2,7 +2,7 @@ import { BackgroundLines } from "@/components/ui/background-lines";
 import { ThemeSwitcher } from "@/components/ui/theme-switcher";
 import LinkButtons from "@/components/LinkButtons";
 import { Button } from "@/components/ui/button";
-import { ArrowRightCircle } from "lucide-react";
+import { Icons } from "@/components/icons";
 import { TransitionLink } from "@/components/TransitionLink";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
@@ -37,7 +37,7 @@ export default function Home() {
               className="flex flex-row justify-center items-center gap-2 mt-8 px-12 transition duration-600 ease-in-out transform hover:scale-[1.05]"
             >
               <p>Open Portfolio</p>
-              <ArrowRightCircle size={36} />
+              <Icons.open className="size-4" />
             </Button>
           </TransitionLink>
         </div>

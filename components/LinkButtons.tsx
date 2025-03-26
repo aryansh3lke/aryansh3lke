@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { FileText, Github, Linkedin, Mail } from "lucide-react";
+import { Icons } from "@/components/icons";
 import Link from "next/link";
 import {
   Tooltip,
@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/tooltip";
 
 export default function LinkButtons() {
-  const ICON_SIZE = 64;
   const BUTTON_STYLE =
     "rounded-full transition duration-250 ease-in-out transform hover:scale-110";
 
@@ -21,7 +20,7 @@ export default function LinkButtons() {
           <TooltipTrigger asChild>
             <Link href="https://github.com/aryansh3lke">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Github size={ICON_SIZE} />
+                <Icons.github className="size-4" />
               </Button>
             </Link>
           </TooltipTrigger>
@@ -34,7 +33,7 @@ export default function LinkButtons() {
           <TooltipTrigger asChild>
             <Link href="https://linkedin.com/in/aryanshelke">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Linkedin size={ICON_SIZE} />
+                <Icons.linkedin className="size-4" />
               </Button>
             </Link>
           </TooltipTrigger>
@@ -52,7 +51,7 @@ export default function LinkButtons() {
                 window.open("/Resume.pdf", "_blank", "noopener,noreferrer")
               }
             >
-              <FileText size={ICON_SIZE} />
+              <Icons.resume className="size-4" />
             </Button>
           </TooltipTrigger>
           <TooltipContent>
@@ -64,7 +63,7 @@ export default function LinkButtons() {
           <TooltipTrigger asChild>
             <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=aryan.shelke.2003@gmail.com">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Mail size={ICON_SIZE} />
+                <Icons.email className="size-4" />
               </Button>
             </Link>
           </TooltipTrigger>
