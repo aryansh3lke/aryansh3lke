@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
+import { ChevronRightIcon, ExternalLinkIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -17,7 +17,7 @@ interface ResumeCardProps {
   href?: string;
   badges?: readonly string[];
   period: string;
-  description?: string;
+  description?: readonly string[];
 }
 export const ResumeCard = ({
   logoUrl,
@@ -31,31 +31,25 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
-      e.preventDefault();
-      setIsExpanded(!isExpanded);
-    }
-  };
-
   return (
-    <Link
-      href={href || "#"}
-      className="block cursor-pointer"
-      onClick={handleClick}
-    >
+    <div className="block">
       <Card className="flex">
         <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-white ">
-            <AvatarImage
-              src={logoUrl}
-              alt={altText}
-              className="object-contain"
-            />
-            <AvatarFallback>{altText[0]}</AvatarFallback>
-          </Avatar>
+          <Link href={href || "#"} className="block">
+            <Avatar className="border size-12 m-auto bg-white">
+              <AvatarImage
+                src={logoUrl}
+                alt={altText}
+                className="object-contain"
+              />
+              <AvatarFallback>{altText[0]}</AvatarFallback>
+            </Avatar>
+          </Link>
         </div>
-        <div className="flex-grow ml-4 items-center flex-col group">
+        <div
+          className="flex-grow ml-4 items-center flex-col group cursor-pointer"
+          onClick={() => description && setIsExpanded(!isExpanded)}
+        >
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
@@ -91,7 +85,6 @@ export const ResumeCard = ({
               initial={{ opacity: 0, height: 0 }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
-
                 height: isExpanded ? "auto" : 0,
               }}
               transition={{
@@ -100,11 +93,17 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              <ul className="list-disc pl-5 space-y-1">
+                {description.map((item, index) => (
+                  <li key={index} className="leading-relaxed">
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </motion.div>
           )}
         </div>
       </Card>
-    </Link>
+    </div>
   );
 };

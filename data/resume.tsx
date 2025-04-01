@@ -9,7 +9,7 @@ export const DATA = {
   location: "Cupertino, CA",
   locationLink: "https://www.google.com/maps/place/cupertino",
   description:
-    "Full Stack Web Developer and Full Time Software Engineering Student @ SJSU. I enjoy creating helpful AI apps that you could see yourself using.",
+    "Full Stack Web Developer and Full Time Software Engineering Student @ SJSU. I enjoy creating helpful AI tools that you could see yourself using.",
   summary:
     "After graduating from UC Davis with a Bachelor's in Computer Science, I felt lost. I questioned whether I truly loved the tech field or merely wanted financial gain like some of my peers. My past courses and projects focused on what others wanted, not what I desired. After deep reflection and self-learning, I discovered my true preferences as an engineer. I found myself liking the simplicity and productivity of high-level languages like Python and TypeScript. I also began to enjoy picking up new frameworks and libraries to build the ideal tech stack for my apps. Starting out as a naïve front-end developer, I quickly delved into the realms of back-end engineering and DevOps. This way, I could bring my ideas to production on my own.",
   skills: {
@@ -17,7 +17,7 @@ export const DATA = {
       "React",
       "Next.js",
       "Javascript",
-      "Typescript",
+      "TypeScript",
       "TailwindCSS",
       "Shadcn UI",
       "Material UI",
@@ -62,6 +62,19 @@ export const DATA = {
 
   work: [
     {
+      company: "SJSU Software and Computer Engineering Society",
+      href: "https://sce.sjsu.edu",
+      badges: [],
+      location: "Remote",
+      title: "AI/ML Officer",
+      logoUrl: "/experiences/sjsusce.png",
+      start: "Mar 2025",
+      end: "Present",
+      description: [
+        "Fine-tuned a ChatGPT model to output MIDI files for a GenAI app that allows musicians to accelerate their creative process by generating measures of music for different genres and time signatures",
+      ],
+    },
+    {
       company: "#include",
       href: "https://includedavis.com",
       badges: [],
@@ -70,20 +83,26 @@ export const DATA = {
       logoUrl: "/experiences/include.png",
       start: "Oct 2021",
       end: "Apr 2022",
-      description:
-        "Coded the front-end for a client Vietnamese organization with a large team of students utilizing Next.js. Collaborated with designers using Figma to generate frontend components as well as developers using VS Code and GitHub to merge the work completed on different routes on the website.Created a rudimentary React/Node.js recipe app with 2 other backend developers to gain fundamental web development experience with React, HTML, CSS, and Javascript after being accepted into the initial cohort.",
+      description: [
+        "Developed various routes for the front-end for a client Vietnamese organization and optimized the UX and loading times by leveraging Next.js and its static site generation capabilities",
+        "Worked with web designers to convert Figma designs into React components and assemble the UI",
+        "Built a separate full-stack recipe app with React and Node.js, integrating a public database, to simplify the search process for finding recipes and display the ingredients and instructions with an aesthetic UI built with Bootstrap",
+      ],
     },
     {
       company: "YAPA Kids",
       badges: [],
       href: "https://www.yapakids.org",
       location: "Remote",
-      title: "C++ Curriculum and Program Lead",
+      title: "C++ Program Founder and Curriculum Lead",
       logoUrl: "/experiences/yapakids.png",
       start: "Jul 2020",
       end: "May 2021",
-      description:
-        "Founded a C++ computer science program at a volunteer organization and oversaw 6 high school student teachers and 3 curriculum creators. Taught weekly programming classes on Zoom to over 50 middle school students during the COVID-19 pandemic. Developed and transformed a comprehensive C++ curriculum to be more appropriate for younger students by incorporating kid-friendly terms and examples.",
+      description: [
+        "Led a C++ program with a team of 6 high school student teachers and 3 curriculum creators",
+        "Taught weekly programming classes via Zoom to 50+ middle school students during the COVID-19 pandemic",
+        "Created a beginner-friendly C++ curriculum with clear explanations and examples tailored to younger students",
+      ],
     },
   ],
   education: [
@@ -94,6 +113,9 @@ export const DATA = {
       logoUrl: "/education/sjsu.png",
       start: "Jan 2025",
       end: "Present",
+      description: [
+        "Relevant Courses: Machine Learning, Artificial Intelligence & Data Engineering",
+      ],
     },
     {
       school: "University of California, Davis",
@@ -102,6 +124,10 @@ export const DATA = {
       logoUrl: "/education/ucdavis.png",
       start: "Sept 2021",
       end: "Dec 2023",
+      description: [
+        "GPA: 3.93",
+        "Relevant Courses: Data Structures & Algorithms, Algorithm Design & Analysis, Operating Systems, Computer Architecture, Machine Learning, Introduction to Artificial Intelligence, Web Programming, Computational Linguistics",
+      ],
     },
     {
       school: "Monta Vista High School",
@@ -110,6 +136,10 @@ export const DATA = {
       logoUrl: "/education/mvhs.png",
       start: "Aug 2017",
       end: "June 2021",
+      description: [
+        "GPA: 3.97",
+        "Relevant Courses: AP Computer Science A, AP Statistics, AP Calculus BC, AP Physics 1",
+      ],
     },
   ],
   projects: [
@@ -122,7 +152,7 @@ export const DATA = {
         "Created an AI tool to periodically webscrape the top trends on X (Twitter) and generate summaries and sentiment scores to allow Internet users to gain instant insight on current events without having to waste time doomscrolling on social media.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "FastAPI",
         "Python",
         "MongoDB",
@@ -159,7 +189,7 @@ export const DATA = {
         "Developed a multi-page app to allow students, researchers, and educators to save time by generating high quality summaries of videos, download videos at any available resolution, and get a credibility analysis for creators that are foreign to them.",
       technologies: [
         "React Router",
-        "Typescript",
+        "TypeScript",
         "Flask",
         "Python",
         "OpenAI",
@@ -194,7 +224,7 @@ export const DATA = {
         "Trained anime recommender systems using large Kaggle datasets and built a website to allow anime fans to receive and save their recommendations to their watchlist.",
       technologies: [
         "Next.js",
-        "Typescript",
+        "TypeScript",
         "Flask",
         "Python",
         "NextAuth.js",
