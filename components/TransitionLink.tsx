@@ -27,6 +27,7 @@ export const TransitionLink: React.FC<TransitionLinkProps> = ({
     e.preventDefault();
     const body = document.querySelector("body");
 
+    body?.setAttribute("data-transitioning", "true");
     body?.classList.add("page-transition");
 
     await sleep(500);
@@ -34,6 +35,7 @@ export const TransitionLink: React.FC<TransitionLinkProps> = ({
     await sleep(500);
 
     body?.classList.remove("page-transition");
+    body?.removeAttribute("data-transitioning");
   };
 
   return (

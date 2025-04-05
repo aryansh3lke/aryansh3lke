@@ -61,14 +61,27 @@ export default function LinkButtons() {
 
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=aryan.shelke.2003@gmail.com">
+            <Link href="https://devpost.com/aryan-shelke-2003">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Icons.email className="size-4" />
+                <Icons.devpost className="size-6" />
               </Button>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Email</p>
+            <p>Devpost</p>
+          </TooltipContent>
+        </Tooltip>
+
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link href="https://x.com/user59500283">
+              <Button size="icon" className={BUTTON_STYLE}>
+                <Icons.x className="size-6" />
+              </Button>
+            </Link>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>X</p>
           </TooltipContent>
         </Tooltip>
       </div>

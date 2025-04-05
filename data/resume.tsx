@@ -45,13 +45,27 @@ export const DATA = {
 
         navbar: true,
       },
+      Devpost: {
+        name: "Devpost",
+        url: "https://devpost.com/aryan-shelke-2003",
+        icon: Icons.devpost,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/user59500283",
+        icon: Icons.x,
+        navbar: true,
+      },
+    },
+    other: {
       Resume: {
         name: "Resume",
         url: "/Resume.pdf",
         icon: Icons.resume,
         navbar: true,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "https://mail.google.com/mail/?view=cm&fs=1&to=aryan.shelke.2003@gmail.com",
         icon: Icons.email,

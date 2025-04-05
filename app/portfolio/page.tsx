@@ -9,12 +9,25 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 // import Link from "next/link";
 import Markdown from "react-markdown";
+import { TimelineNav } from "@/components/timeline-nav";
 
 const BLUR_FADE_DELAY = 0.04;
+
+// Define sections for the timeline navigation
+const SECTIONS = [
+  { id: "hero", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "work", label: "Experience" },
+  { id: "education", label: "Education" },
+  { id: "skills", label: "Skills" },
+  { id: "projects", label: "Projects" },
+  { id: "contact", label: "Contact" },
+];
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6">
+      <TimelineNav sections={SECTIONS} />
       <main className="flex flex-col min-h-[100dvh] space-y-10">
         <section id="hero">
           <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -228,7 +241,7 @@ export default function Page() {
                   </Link>{" "}
                   or send me an email at{" "}
                   <Link
-                    href={DATA.contact.social.email.url}
+                    href={DATA.contact.other.Email.url}
                     className="text-blue-500 hover:underline"
                   >
                     {DATA.contact.email}
