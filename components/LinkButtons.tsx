@@ -74,7 +74,7 @@ export default function LinkButtons() {
 
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href="https://x.com/user59500283">
+            <Link href="https://x.com/aryansh3lke">
               <Button size="icon" className={BUTTON_STYLE}>
                 <Icons.x className="size-6" />
               </Button>
