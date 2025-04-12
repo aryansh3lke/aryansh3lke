@@ -232,7 +232,14 @@ export default function Page() {
                   Get in Touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Want to chat? Connect with me on{" "}
+                  Schedule a coffee chat with me on my{" "}
+                  <Link
+                    href={"https://calendly.com/aryan-shelke/30min"}
+                    className="text-blue-500 hover:underline"
+                  >
+                    Calendly
+                  </Link>
+                  . You can also connect with me on{" "}
                   <Link
                     href={DATA.contact.social.LinkedIn.url}
                     className="text-blue-500 hover:underline"
@@ -245,8 +252,8 @@ export default function Page() {
                     className="text-blue-500 hover:underline"
                   >
                     {DATA.contact.email}
-                  </Link>{" "}
-                  and I&apos;ll reply as soon as I can.
+                  </Link>
+                  {"."}
                 </p>
               </div>
             </BlurFade>

@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Full Stack Web Developer and Full Time Software Engineering Student @ SJSU. I enjoy creating helpful AI tools that you could see yourself using.",
   summary:
-    "After graduating from UC Davis with a Bachelor's in Computer Science, I felt lost. I questioned whether I truly loved the tech field or merely wanted financial gain like some of my peers. My past courses and projects focused on what others wanted, not what I desired. After deep reflection and self-learning, I discovered my true preferences as an engineer. I found myself liking the simplicity and productivity of high-level languages like Python and TypeScript. I also began to enjoy picking up new frameworks and libraries to build the ideal tech stack for my apps. Starting out as a naïve front-end developer, I quickly delved into the realms of back-end engineering and DevOps. This way, I could bring my ideas to production on my own.",
+    "After graduating from UC Davis with a Bachelor's in Computer Science, I felt lost. I questioned whether I truly loved the tech field or merely wanted financial gain like some of my peers. My past courses and projects focused on what others wanted, not what I desired. After deep reflection and self-learning, I discovered my true preferences as an engineer. I found myself liking the simplicity and productivity of high-level languages like Python and TypeScript. I also began to enjoy picking up new frameworks and libraries to build the ideal tech stack for my apps. Starting out as a standard front-end developer, I quickly delved into the realms of back-end engineering and DevOps. This way, I could bring my ideas to production on my own.",
   skills: {
     Frontend: [
       "React",
