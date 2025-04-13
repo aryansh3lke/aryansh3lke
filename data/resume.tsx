@@ -81,6 +81,12 @@ export const DATA = {
         icon: Icons.email,
         navbar: true,
       },
+      Calendly: {
+        name: "Calendly",
+        url: "https://calendly.com/aryan-shelke/30min",
+        icon: Icons.calendly,
+        navbar: true,
+      },
     },
   },
 
