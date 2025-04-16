@@ -1,33 +1,16 @@
-# 👨🏾‍💻 Aryan Shelke - Full Stack Web Dev - M.S. SWE @ SJSU
+# Hi I'm Aryan 👋
 
-Check out my personal website and portfolio here: [aryanshelke.com](https://aryanshelke.com)
+A few things about me:
 
-### Education
+- 👨🏽‍🎓 I’m a masters SWE student @ SJSU
 
-B.S. Computer Science @ UC Davis *2021-2023*<br>
-M.S. Software Engineering @ SJSU *2025-Present*
+- 👨🏽‍💻 I love building helpful full stack AI web apps
 
-### Technologies
+- 👨🏽‍🏫 I enjoy learning new frameworks, libraries, and technologies.
 
-**🖼 Frameworks:** React, Next.js, Flask, FastAPI<br>
-**📝 Languages:** Python, HTML/CSS, Javascript, Typescript, SQL<br>
-**📚 Libraries:** NumPy, Pandas, Matplotlib, Selenium<br>
-**🎨 User Interfaces:** Tailwind CSS, Shadcn UI, Next UI, Figma<br>
-**🔐 Authentication:** NextAuth, Supabase, PostgreSQL<br>
-**📊 Testing:** React Testing Library, Jest, Vitest<br>
-**⚙️ DevTools:** Visual Studio, Github Actions, Docker, Vercel, Railway<br>
+To learn even more about me and my work, check out my website here: [aryanshelke.com](https://aryanshelke.com)
 
-<!--
-**asshelke/asshelke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Here are some of my solo projects on GitHub:
+- [YT Rehashed](https://github.com/aryansh3lke/yt-rehashed)
+- [TrendScope](https://github.com/aryansh3lke/trendscope)
+- [AnimeRecsAI](https://github.com/aryansh3lke/anime-recommender)
