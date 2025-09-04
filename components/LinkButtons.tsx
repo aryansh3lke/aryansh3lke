@@ -20,25 +20,12 @@ export default function LinkButtons() {
           <TooltipTrigger asChild>
             <Link href="https://github.com/aryansh3lke">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Icons.github className="size-4" />
+                <Icons.github className="size-8" />
               </Button>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
             <p>GitHub</p>
-          </TooltipContent>
-        </Tooltip>
-
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <Link href="https://linkedin.com/in/aryanshelke">
-              <Button size="icon" className={BUTTON_STYLE}>
-                <Icons.linkedin className="size-4" />
-              </Button>
-            </Link>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>LinkedIn</p>
           </TooltipContent>
         </Tooltip>
 
@@ -51,7 +38,7 @@ export default function LinkButtons() {
                 window.open("/Resume.pdf", "_blank", "noopener,noreferrer")
               }
             >
-              <Icons.resume className="size-4" />
+              <Icons.resume className="size-8" />
             </Button>
           </TooltipTrigger>
           <TooltipContent>
@@ -61,27 +48,14 @@ export default function LinkButtons() {
 
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href="https://devpost.com/aryan-shelke-2003">
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&to=aryan.shelke.2003@gmail.com">
               <Button size="icon" className={BUTTON_STYLE}>
-                <Icons.devpost className="size-6" />
+                <Icons.email className="size-8" />
               </Button>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
-            <p>Devpost</p>
-          </TooltipContent>
-        </Tooltip>
-
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <Link href="https://x.com/aryansh3lke">
-              <Button size="icon" className={BUTTON_STYLE}>
-                <Icons.x className="size-6" />
-              </Button>
-            </Link>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>X</p>
+            <p>Email</p>
           </TooltipContent>
         </Tooltip>
       </div>

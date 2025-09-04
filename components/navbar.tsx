@@ -70,7 +70,7 @@ export default function Navbar() {
               </Tooltip>
             </DockIcon>
           ))}
-        <Separator orientation="vertical" className="h-full py-2" />
+
         {Object.entries(DATA.contact.other)
           .filter(([_, social]) => social.navbar)
           .map(([name, social]) => (

@@ -5,7 +5,7 @@ export const DATA = {
   name: "Aryan Shelke",
   initials: "AS",
   avatarUrl: "/avatar.png",
-  url: "https://aryanshelke.com",
+  url: "https://arynshlk.xyz",
   location: "Cupertino, CA",
   locationLink: "https://www.google.com/maps/place/cupertino",
   description:
@@ -48,25 +48,6 @@ export const DATA = {
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://linkedin.com/in/aryanshelke",
-        icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      Devpost: {
-        name: "Devpost",
-        url: "https://devpost.com/aryan-shelke-2003",
-        icon: Icons.devpost,
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://x.com/aryansh3lke",
-        icon: Icons.x,
-        navbar: true,
-      },
     },
     other: {
       Resume: {
@@ -91,6 +72,37 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "San Jose State University",
+      href: "https://sjsu.edu",
+      badges: [],
+      location: "Remote",
+      title: "Graduate Research Assistant - Connected Autonomous Systems",
+      logoUrl: "/experiences/sjsu.png",
+      start: "Aug 2025",
+      end: "Present",
+      description: [
+        "Conducted a comprehensive literature review on reinforcement learning for connected autonomous driving (V2V/V2X focusing on occlusion-aware, shared-sensing perception and mapping",
+        "Built a structured taxonomy of approaches (single vs multi-agent and centralized/decentralized execution) and compiled benchmarks relevant to occlusions, safety, and bandwidth",
+        "Synthesized gaps and opportunity areas such as communication efficient policy learning and occupancy grid sharing to define directions for a novel research contribution and evaluation plan",
+      ],
+    },
+    {
+      company: "Rethink Yearbooks",
+      href: "https://rethinkyearbooks.com",
+      badges: [],
+      location: "Remote",
+      title: "AI Engineering Intern - Computer Vision",
+      logoUrl: "/experiences/rethinkyearbooks.png",
+      start: "June 2025",
+      end: "July 2025",
+      description: [
+        "Built an AI-powered photo processing pipeline using ArcFace and Python to automatically tag thousands of yearbook images with student identities and contextual metadata",
+        "Developed a recommendation system to rank and select top photos per student based on visibility, emotion detection, and diversity, ensuring balanced representation",
+        "Automated personalized video story generation with FFmpeg and MoviePy integrating transitions, text overlays, and music for school-wide deployment",
+        "Deployed a scalable infrastructure on AWS Lambda, CloudFront, and S3 and built a React/FastAPI dashboard to deliver and manage per-student video stories",
+      ],
+    },
     {
       company: "SJSU Software and Computer Engineering Society",
       href: "https://sce.sjsu.edu",

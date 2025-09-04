@@ -38,7 +38,7 @@ export default function Home() {
           <TransitionLink href="/portfolio">
             <Button
               size="lg"
-              className="flex flex-row justify-center items-center gap-2 mt-8 px-12 transition duration-600 ease-in-out transform hover:scale-[1.05]"
+              className="flex flex-row justify-center items-center gap-2 mt-4 px-12 transition duration-600 ease-in-out transform hover:scale-[1.05]"
             >
               <p>Open Portfolio</p>
               <Icons.open className="size-4" />
